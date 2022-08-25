@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    background: #0d192b;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+section {
+    background-color: #14253d;
+    width: 330px;
+    height: 570px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px #080e1883;
+    
+    
+}
+
+
+img {
+    width: 330px;
+    border-radius: 35px;
+    padding-top: 10px;
+    padding: 20px;
+    
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+    font-family: 'outfit';
+    font-weight: 400;
+    padding: 0 20px;
+    transition: 0.3ms;
+    
+}
+
+.title:hover {
+    cursor: pointer;
+    color: #00fff7;
+}
+
+.subtitle {
+    color: #8bacda;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'outfit';
+    padding: 10px 20px;
+}
+
+.info {
+    padding: 1rem ;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.eth {
+    width: 10%;
+    padding: 0;
+}
+
+.price {
+    color: #00fff7;
+    font-weight: 300;
+    padding: 0;
+    padding-left: 5px;
+    font-family: "outfit";
+    font-size: 14px;
+}
+
+.day {
+    color: #8bacda;
+    font-weight: 300;
+    padding-left: 120px;
+    font-family: "outfit";
+}
+
+.line {
+    margin: 0 auto;
+    width: 89%;
+    border: 1px solid #8bacda80;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-avatar {
+    width: 10%;
+    border: 1px solid #fff;
+    padding: 0;
+    margin: 20px 20px;
+}
+
+.text {
+    font-size: 13px;
+    color: #8bacda;
+    margin-top:30px;
+    transition: 0.3ms;
+    font-family: "outfit";
+    
+}
+
+strong {
+    color: #fff;
+}
+
+strong:hover {
+    color: #00fff7;
+    cursor: pointer;
+}
